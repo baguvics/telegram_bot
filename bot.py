@@ -68,10 +68,9 @@ def process_data(input_data):
         async def news(message: types.Message):
             news_data = news_app()
             await message.answer(news_data)
-
         data = input_data.get()
         print(data)
-        time.sleep(1)  # Задержка
+        time.sleep(1)
 
 
 q = Queue()
