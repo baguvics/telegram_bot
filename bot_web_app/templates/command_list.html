@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Команды бота</title>
+</head>
+<body>
+    <h1>Команды бота</h1>
+    <ul>
+        {% for command in commands %}
+        <li>{{ command.command }} - {{ command.description }}</li>
+        <a href="{% url 'command-edit' command.pk %}">Редактировать</a>
+        {% endfor %}
+    </ul>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>История сообщений</title>
+</head>
+<body>
+    <h1>История сообщений</h1>
+    <ul>
+        {% for message in messages %}
+        <li>{{ message.text }} - {{ message.user }} - {{ message.date }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
