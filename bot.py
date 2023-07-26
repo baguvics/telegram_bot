@@ -37,7 +37,7 @@ def update_data(output_data):
                             description[3].description,
                         ]]
                         )
-        time.sleep(1)  # Задержка чтобы не нагружать бд?
+        time.sleep(1)
 
 
 def process_data(input_data):
