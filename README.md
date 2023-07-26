@@ -3,4 +3,14 @@
 
 Для запуска проекта выполните код:
 
-`git clone `
+`git clone https://github.com/baguvics/telegram_bot.git`
+
+Далее запустите проект с помощью `manage.py`
+
+`python manage.py runserver`
+
+`python manage.py bot.py`
+
+Передите по ссылке http://127.0.0.1:8000/commands/ для просмотра команд и их редактирования
+
+В телеграме добавьте бота *@TgRewinder_bot* и начнити с `/start`
